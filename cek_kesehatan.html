@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rumah Sehat Online</title>
+		<script src="javascripts/jquery-2.1.1.min.js"></script> 			<!-- javascript -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 	<!-- css bootstrap -->
+  		<script src="bootstrap/js/bootstrap.min.js"></script> 			<!-- js bootstrap -->
+  		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<table class="banner">
+					<tr><td>Rumah Sehat Online</td></tr>
+			     </table>
+			</div>
+			<!-- Navigator Menu -->
+			<table class="col-md-12">
+				<tr><td class="col-md-3">
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a href="#">10 Top Disease</a></li>
+					<li><a href="#">10 New Disease</a></li>
+					<li><a href="#">10 Top Doctor</a></li>
+				</ul>
+				</td>
+				<td class="col-md-9">
+				<ul class="nav nav-tabs">
+				   	<li><a href="index.html">Home</a></li>
+				   	<li class="active"><a href="cek_kesehatan.html">Cek Kesehatan</a></li>	
+				   	<li><a href="login_dokter.html">Login Dokter</a></li>
+				   	<nav class="" role="navigation">
+						<form class="navbar-form navbar-right" role="search">
+					        <div class="form-group input-group-sm"><input type="text" class="form-control" placeholder="Search Penyakit"></div>
+					        <button type="submit" class="btn btn-default btn-sm">Submit</button>
+					    </form>
+			  		</nav>
+				</ul>
+				</td></tr>
+			</table>
+			<!-- End of Navigator Menu -->
+
+			<!----------------------------- Container ------------------------------>
+			<!-- Left Side -->
+				<table border="0" class="left_bar" id="left_bar">
+					<tr>
+						<td class="col-md-3">
+							<div id="left_title" class="left_bar_title">
+								10 Top Penyakit !!!
+							</div>
+							<div class="left_bar_text">
+								<ul><a href="#"><strong>Demam		</strong><li>12/01/14</li></a></ul>
+								<ul><a href="#"><strong>DBD 		</strong><li>13/01/14</li></a></ul>
+								<ul><a href="#"><strong>DBD			</strong><li>14/01/14</li></a></ul>
+								<ul><a href="#"><strong>Jantung		</strong><li>15/01/14</li></a></ul>
+								<ul><a href="#"><strong>Gagal Ginjal</strong><li>16/01/14</li></a></ul>
+								
+								<ul><a href="#"><strong>Asma		</strong><li>16/01/14</li></a></ul>
+								<ul><a href="#"><strong>Kencing batu</strong><li>17/01/14</li></a></ul>
+								<ul><a href="#"><strong>Masuk angin	</strong><li>18/01/14</li></a></ul>
+								<ul><a href="#"><strong>Tipes		</strong><li>19/01/14</li></a></ul>
+								<ul><a href="#"><strong>Osteoporosis</strong><li>20/01/14</li></a></ul>
+								<ul><a href="#"><strong>HIV			</strong><li>21/01/14</li></a></ul>
+							</div>
+						</td>
+			<!-- End of Left Side -->
+			<!-- Right Side -->
+						<td class="col-md-9" valign="top">
+							<div class="main_text">
+								<form method="post" action="hasil_cek.html" id="input_cek">
+									<h2>Gejala Penyakit</h2>
+									<div class="row">
+									<!------------------- Label -------------------->	
+										<div class="col-md-3">
+											<div class="panel panel-info"><div class="panel-heading"> 
+												<center>
+												<input type="checkbox" name="batuk" value"1">
+													<div class="dropdwon">
+														<a data-toggle="dropdown" href="#"> Batuk</a>
+															<!-- Drop down Penyakit -->
+															<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+																<li><h5>Penyakit terkait</h5></li>
+																<li role="presentation" class="divider"></li>
+																<li href="#">Demam</li>
+																<li href="#">Radang tenggorokan</li>
+															</ul>
+															<!-- End of Drop down Penyakit -->
+													</div>
+												</input>
+												</center>
+											</div></div>
+										</div>
+									<!------------------- End of Label -------------------->
+									<!------------------- Label -------------------->	
+										<div class="col-md-3">
+											<div class="panel panel-info"><div class="panel-heading">
+												<center>
+												<input type="checkbox" name="Pilek" value"1">
+													<div class="dropdwon">
+														<a data-toggle="dropdown" href="#"> Pilek</a>
+															<!-- Drop down Penyakit -->
+															<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+																<li><h5>Penyakit terkait</h5></li>
+																<li role="presentation" class="divider"></li>
+																<li href="#">Demam</li>
+																<li href="#">Radang tenggorokan</li>
+															</ul>
+															<!-- End of Drop down Penyakit -->
+													</div>
+												</input>
+												</center>
+											</div></div>
+										</div>
+									<!------------------- End of Label -------------------->	
+										
+
+									<!------------------- Label -------------------->	
+										<div class="col-md-3">
+											<div class="panel panel-info"> <div class="panel-heading">
+												<center>
+												<input type="checkbox" name="suhu" value"1">
+													<div class="dropdwon-inline">
+														<a data-toggle="dropdown" href="#"> Suhu di atas 37&deg</a>
+															<!-- Drop down Penyakit -->
+															<ul class="dropdown-menu">
+																<li><h5>Penyakit terkait</h5></li>
+																<li role="presentation" class="divider"></li>
+																<li href="#">Demam</li>
+																<li href="#">Radang tenggorokan</li>
+															</ul>
+															<!-- End of Drop down Penyakit -->
+													</div>
+												</input>
+												</center>
+											</div></div>
+										</div>
+									<!------------------- End of Label -------------------->	
+									
+									<!------------------- Label -------------------->	
+										<div class="col-md-3">
+											<div class="panel panel-info"><div class="panel-heading">
+												<center>
+												<input type="checkbox" name="pusing" value"1">
+													<div class="dropdwon-inline">
+														<a data-toggle="dropdown" href="#"> Pusing</a>
+															<!-- Drop down Penyakit -->
+															<ul class="dropdown-menu">
+																<li><h5>Penyakit terkait</h5></li>
+																<li role="presentation" class="divider"></li>
+																<li href="#">Demam</li>
+															</ul>
+															<!-- End of Drop down Penyakit -->
+													</div>
+												</input>
+												</center>
+											</div></div>
+										</div>
+									<!------------------- End of Label -------------------->
+										<!------------------- Label -------------------->	
+										<div class="col-md-3">
+											<div class="panel panel-info"><div class="panel-heading">
+												<center>
+												<input type="checkbox" name="muntah" value"1">
+													<div class="dropdwon-inline">
+														<a data-toggle="dropdown" href="#"> Muntah</a>
+															<!-- Drop down Penyakit -->
+															<ul class="dropdown-menu">
+																<li><h5>Penyakit terkait</h5></li>
+																<li role="presentation" class="divider"></li>
+																<li href="#">Demam</li>
+															</ul>
+															<!-- End of Drop down Penyakit -->
+													</div>
+												</input>
+												</center>
+											</div></div>
+										</div>
+									<!------------------- End of Label -------------------->
+										</div>
+										<div class="panel panel-info" class="form-group"> <button class="btn btn-primary pull-right" value="Submit">Submit</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</td>
+					</tr>
+				</table>
+			<!-- End of Right Side -->
+				<!-- Footer -->
+				<table class="col-md-12">
+					<tr><td><div  id="footer">Copy right by Ivan & Syailendra</div></td></tr>
+				</table>
+				<!-- End of Footer -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>
